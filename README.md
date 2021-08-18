@@ -31,9 +31,10 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-
+- 730 is CSOGO id app
+- 570 is DOTA2 id app
 ```cmd
-scrapy crawl csgoItem -O csgoItem.csv
+scrapy crawl csgoItem -a app_id=730 -O csgoItem.csv
 ```
 
 ## Donate
